@@ -3,9 +3,12 @@ $(document).ready(function() {
     // 在這裡加入顯示學號、姓名、大頭照的程式碼
 
     // 功能2
-    $("#btnFontColor").click(function() {
-        // 在這裡加入調整字體顏色的程式碼
+$("#btnFontColor").click(function() {
+    $("#studentID, #studentName").css({
+        'color': 'red', // 請更換為你想要的顏色
+        'font-size': '20px' // 請更換為你想要的字體大小
     });
+});
 
     // 功能3
     $("#btnBorderStyle").click(function() {
