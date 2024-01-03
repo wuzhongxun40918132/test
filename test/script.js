@@ -26,6 +26,6 @@ $("#btnFontColor").click(function() {
     });
 
     // 功能6
-    $("#linkHTML").attr("href", "test/index.html");
-    $("#linkJS").attr("href", "test/script.js");
+    $("#linkHTML").attr("href", "test\index.html");
+    $("#linkJS").attr("href", "test\script.js");
 });
